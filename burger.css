@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.ss {
+    text-align: center;
+    font-family: 'Lobster';
+    color: white;
+
+}
+
+.size {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.image {
+    height: 60px;
+    width: 120px;
+
+}
+
+#mm {
+    font-family: 'Lobster';
+    color: black;
+
+}
+
+.bg {
+    background-image: url("https://img.freepik.com/premium-photo/delicious-chocolate-easter-eggs-old-black-wood-background_41050-5566.jpg");
+    height: 80vh;
+    background-size: cover;
+}
+
+.hh {
+    font-family: 'Lobster';
+    font-size: 45px;
+    color: #f5ef9f;
+}
+
+.hh2 {
+    font-family: 'Lobster';
+    font-size: 45px;
+    color: #f5ef9f;
+}
+
+.align {
+    text-align: center;
+    padding: 40px;
+
+}
+
+.butt {
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    color: white;
+    border-width: 0px;
+    background-image: linear-gradient(to right, #a66b58, #c2c47e);
+    font-family: 'Roboto';
+}
+
+.image2 {
+    height: 180px;
+    width: 170px;
+}
+
+.hh3 {
+    font-size: 22px;
+    color: black;
+    font-family: 'Roboto';
+}
+
+.shop {
+    color: black;
+    font-size: 28px;
+    font-family: 'Lobster';
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-edit {
+    background-color: white;
+    border-radius: 16px;
+
+    text-align: center;
+
+}
+
+.arr {
+    font-family: 'Roboto';
+    color: black;
+    font-size: 20px;
+}
+
+.mango {
+    font-family: 'Lobster';
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.rupee {
+    font-size: 15px;
+    color: brown;
+}
+
+.butt2 {
+    height: 45px;
+    width: 130px;
+    color: white;
+    background-color: black;
+    border-width: 0px;
+    border-radius: 0px;
+}
+
+.image3 {
+    height: 200px;
+    width: 200px;
+}
+
+.butt3 {
+    background-color: brown;
+}
+
+.cen {
+    text-align: center;
+}
+
+.choco {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.mango2 {
+    font-family: 'Lobster';
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.img {
+    height: 500px;
+    width: 500px;
+}
+
+.font {
+    font-size: 17px;
+}
+
+.card-edit2 {
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    height: 480px;
+    width: 300px;
+}
+
+.font2 {
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: black;
+}
+
+.email {
+    height: 45px;
+    width: 270px;
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    text-align: left;
+    margin: 5px;
+}
+
+.cen2 {
+    padding-right: 50px;
+}
+
+.mm {
+    padding: 10px;
+}
+
+.contact {
+    font-family: 'Lobster';
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.com {
+    font-family: 'Roboto';
+    color: grey;
+    font-size: 20px;
+}
