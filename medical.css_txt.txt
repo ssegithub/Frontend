@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image {
+    height: 70px;
+    width: 90px;
+}
+
+#nav1 {
+    font-family: 'Roboto';
+    color: violet;
+}
+
+#nav2 {
+    font-family: 'Roboto';
+    color: violet;
+}
+
+#nav3 {
+    font-family: 'Roboto';
+    color: violet;
+}
+
+#nav4 {
+    font-family: 'Roboto';
+    color: violet;
+}
+
+.bg {
+    background-image: url("https://thumbs.dreamstime.com/b/medicine-backdrop-special-equipment-medical-blue-background-different-accessories-vertical-picture-177689620.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading {
+    font-family: 'Caveat';
+    font-size: 30px;
+    text-align: center;
+}
+
+.para {
+    font-size: 27px;
+    font-family: 'Roboto';
+    font-style: oblique;
+    text-align: center;
+}
+
+.butt {
+    height: 45px;
+    width: 125px;
+    background-color: #f05df5;
+    border-radius: 8px;
+    color: white;
+    border-width: 0px;
+    margin-right: 10px;
+}
+
+.butt2 {
+    height: 45px;
+    width: 125px;
+    background-color: transparent;
+    border-radius: 8px;
+    color: white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #f05df5;
+}
+
+.center {
+    text-align: center;
+}
+
+.paragraph {
+    background-color: #f7ebf7;
+}
+
+.wcu-heading {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.wcu-paragraph {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    color: #5a7184;
+}
+
+.wcu-card {
+    background-color: white;
+    border-radius: 16px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ea32ed;
+}
+
+.image2 {
+    height: 125px;
+    width: 125px;
+}
+
+.background {
+    background-color: #f2f3fa;
+}
+
+.card-heading {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.card-paragraph {
+    font-family: 'Roboto';
+    color: #5a7184;
+}
+
+.m-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.view {
+    color: #e366df;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card-heading {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.view {
+    color: #e36bdf;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.m-card {
+    border-radius: 16px;
+}
+
+.image3 {
+    width: 240px;
+}
+
+.good-medicines {
+    background-color: white;
+}
+
+.health {
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 700;
+    color: #183b56;
+}
+
+.health-description {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #5a7184;
+}
+
+.h-butt {
+    width: 130px;
+    height: 45px;
+    color: white;
+    border-width: 0px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #c728c9, #d0b200);
+}
+
+.payment-card-img {
+    height: 50px;
+    width: 50px;
+    margin-right: 28px;
+}
+
+.thanking-customer {
+    background-color: #d0b2001a;
+}
+
+.follow-section {
+    background-color: white;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: #f3cef5;
+    margin: 15px;
+    padding-top: 22px;
+    padding-left: 22px;
+    padding-right: 17px;
+    padding-bottom: 18px;
+}
+
+.icon {
+    font-size: 35px;
+    color: #e040e6;
+}
+
+.follow-2 {
+    background-color: #0d2436;
+}
+
+.image4 {
+    height: 100px;
+    width: 120px;
+    border-radius: 5px;
+
+
+}
+
+.address {
+    color: #959ead;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.add2 {
+    color: #959ead;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
