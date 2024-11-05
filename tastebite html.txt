@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner bg-danger">
+            <div class="carousel-item active cen">
+                <h1 class="size">Discover New Flavors,Handpicked recipes for every taste</h1>
+            </div>
+            <div class="carousel-item cen">
+                <h1 class="size">Quick & Easy – Fast, tasty meals for busy days.</h1>
+            </div>
+            <div class="carousel-item cen">
+                <h1 class="size">Healthy Choices – Nutritious and delicious recipes.</h1>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+        <div class="mm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
+                <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018" />
+                <path d="M13 6.5a6.47 6.47 0 0 1-1.258 3.844q.06.044.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+            </svg>
+        </div>
+
+
+        <img src="https://images-platform.99static.com//6VjMCbp7IYLsJEGzucFaIcRd3Vk=/500x1341:1000x1841/fit-in/590x590/99designs-contests-attachments/95/95653/attachment_95653835" class="img" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" id="mmm" href="#storySection">Our Story <span class="sr-only">(current)</span></a>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="mmm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Recipe
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" id="mmm" href="#spinachSection">Spinach & cheese pasta</a>
+                        <a class="dropdown-item" id="mmm" href="#fancySection">Fancy Glazed Dounts</a>
+                        <a class="dropdown-item" id="mmm" href="#mightySection">Mighty Cheesy Burger</a>
+
+
+
+
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" id="mmm" href="#whySection">Why us?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="mmm" href="#contactSection">contact us</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="bg d-flex flex-column justify-content-center p-5">
+        <div class="cen">
+            <img src="https://fabrx.co/wp-content/uploads/2020/07/tastebite-logo.png" class="img2 mb-2" />
+        </div>
+        <p class="para">A recipe webpage offers detailed instructions, ingredient lists, and visuals to guide users in preparing dishes. It also includes cooking times, nutritional info, and user reviews for added insight.</p>
+        <div class="cen">
+            <a href="#storySection"><button class="butt">Know More</button></a>
+        </div>
+    </div>
+
+
+    <div id="recipeSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-3">
+                    <h1 class="hh">Super Delicious</h1>
+                </div>
+
+                <div class="col-12 col-md-4 p-2">
+                    <a href="#spinachSection"><img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu2.jpg" class="w-100 " style="border-radius:10px;" /></a>
+                    <div class="mt-2 ml-2 m-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </div>
+                    <h1 class="recipe ">Spinach and Cheese Pasta</h1>
+                </div>
+
+
+                <div class="col-12 col-md-4 p-2">
+                    <a href="#fancySection"><img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu3.jpg" class="w-100 " style="border-radius:10px;" /></a>
+                    <div class="mt-2 ml-2 m-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </div>
+                    <h1 class="recipe ">Fancy Glazed Dounts</h1>
+                </div>
+
+
+
+
+                <div class="col-12 col-md-4 p-2">
+                    <a href="#mightySection"><img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu4.jpg" class="w-100 " style="border-radius:10px;" /></a>
+                    <div class="mt-2 ml-2 m-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </div>
+                    <h1 class="recipe ">Mighty Cheesy Burger</h1>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-3">
+                    <h1 class="hh">Sweet Tooth</h1>
+                </div>
+
+
+                <div class="col-12 col-md-4 p-2">
+                    <img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu5.jpg" class="w-100" style="border-radius:10px;" />
+                    <div class="mt-2 ml-2 m-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </div>
+                    <h1 class="recipe ">Caramel Strawberry Milkshake</h1>
+                </div>
+
+
+                <div class="col-12  col-md-4 p-2">
+                    <img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu6.jpg" class="w-100" style="border-radius:10px;" />
+                    <div class="mt-2 ml-2 m-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </div>
+                    <h1 class="recipe ">Chocolate and Banana Jar Cake</h1>
+                </div>
+
+
+                <div class="col-12  col-md-4 p-2">
+                    <img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu7.jpg" class="w-100" style="border-radius:10px;" />
+                    <div class="mt-2 ml-2 m-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill mr-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </div>
+                    <h1 class="recipe ">Berry Maddness Biscuts</h1>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="bg2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h1 class="del">Deliciousness to your inbox</h1>
+                    <h1 class="del2 mt-3">Enjoy weekly hand picked recipes and recommendations</h1>
+                    <div class="cen">
+                        <button class="butt2 mt-3 mb-3 pl-3">Email</button>
+
+                        <h1 class="hh2 mb-3">By joining our newsletter you agree to our <a href=""> Terms and Conditions</a></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-3">
+                <h1 class="hh">Latest Recipes</h1>
+            </div>
+
+
+            <div class="col-12 col-md-3 p-2">
+                <img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu5.jpg" class="w-100" style="border-radius:10px;" />
+                <h1 class="recipe mt-2"> Strawberry Milkshake</h1>
+            </div>
+
+
+            <div class="col-12 col-md-3 p-2">
+                <img src="https://img.freepik.com/premium-photo/soybean-biryani-basmati-rice-cooked-with-soyabean-soy-chunks-spices-also-called-pulao-pilaf-india_466689-5556.jpg?w=996" class="w-100" style="border-radius:10px;" />
+                <h1 class="recipe mt-2">Cashew Vegan rice</h1>
+            </div>
+
+
+            <div class="col-12 col-md-3 p-2">
+
+                <img src="https://img.freepik.com/free-photo/wooden-piece-delicious-chicken-leg-meat-with-vegetable-salad_114579-86307.jpg?t=st=1729193027~exp=1729196627~hmac=67434cd04a7a9686636cdf0466911cde64f617e1c63a0b7d30cf6f735e4cc680&w=996" class="w-100" style="border-radius:10px;" />
+                <h1 class="recipe mt-2">Smoken salman salad</h1>
+            </div>
+
+
+            <div class="col-12  col-md-3 p-2">
+                <img src="https://img.freepik.com/premium-photo/plate-food-with-sauce-it_774065-16539.jpg?w=996" class="w-100" style="border-radius:10px;" />
+                <h1 class="recipe mt-2">Salmon in tomato sauce</h1>
+            </div>
+
+            <div class="col-12  col-md-3 p-2">
+                <img src="https://img.freepik.com/free-photo/traditional-belgian-waffles-with-berries-sour-cream-jam-dark-table_2829-20243.jpg?t=st=1729251445~exp=1729255045~hmac=66d22556c7ddb5144c698fa93a8fbe3f45539b78e5a1be9db347733a1b76e7b7&w=996" class="w-100" style="border-radius:10px;" />
+                <h1 class="recipe mt-2">Healthy jam waffle breakfast</h1>
+            </div>
+
+            <div class="col-12  col-md-3 p-2">
+                <img src="https://img.freepik.com/free-photo/front-view-dessert-jar-with-chocolate-biscuits-copy-space_23-2148603221.jpg?ga=GA1.1.854903613.1719421086&semt=ais_hybrid" class="w-100" style="border-radius:10px;" />
+                <h1 class="recipe mt-2">Chocolate & Banana jar cake</h1>
+            </div>
+
+
+            <div class="col-12  col-md-3 p-2">
+
+                <img src="https://img.freepik.com/free-photo/fresh-homemade-delicious-blueberry-muffins_114579-49404.jpg?ga=GA1.1.854903613.1719421086&semt=ais_hybrid" class="w-100" style="border-radius:10px;" />
+                <h1 class="recipe mt-2">Caramel Bluberry scones</h1>
+            </div>
+
+
+            <div class="col-12  col-md-3 p-2">
+
+                <img src="https://img.freepik.com/free-photo/top-view-fruit-cake-delicious-round-formed-with-fresh-blue-berries-bright-cake-biscuit-sweet-sugar_140725-25102.jpg?ga=GA1.1.854903613.1719421086&semt=ais_hybrid" class="w-100" style="border-radius:10px;" />
+                <h1 class="recipe mt-2"> Bluberry Carrot cake</h1>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div id="storySection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-3">
+                    <h1 class="hh cen">Our Story</h1>
+                </div>
+
+                <div class="col-6">
+                    <img src="https://img.freepik.com/premium-photo/tasty-tofu-stir-fry-with-veggies-crispy-tofu-fresh-cilantro-perfect-vegan-meal-healthy_763042-1370.jpg?ga=GA1.1.854903613.1719421086&semt=ais_hybrid" class="w-100" style="border-radius:10px;" />
+                </div>
+
+                <div class="col-6">
+                    <img src="https://img.freepik.com/free-photo/flat-lay-vegetables-pan-with-vegetable-soup-with-fusilli_23-2148369748.jpg?ga=GA1.1.854903613.1719421086&semt=ais_hybrid" class="w-100" style="border-radius:10px;" />
+                </div>
+
+
+                <div class="col-12 p-3">
+                    <h1 class="choco mt-3">Embark on a Flavorful Adventure with Tastebite</h1>
+                </div>
+
+                <div class="col-12 p-3">
+                    <p class="choco mb-4">At Tastebite, every dish is a story waiting to be told. Our recipes are crafted to transport your senses across the world, with flavors inspired by different cultures and traditions. From the warmth of Mediterranean spices to the zest of tropical fruits, each bite is a delightful exploration.
+                        Whether you're in the mood for something comforting or adventurous, Tastebite has a recipe that will captivate your taste buds.
+                        Join us on this culinary journey and discover the magic behind every meal</p>
+                    <div class="cen">
+                        <button class="butt">Know More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="whySection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-3">
+                    <h1 class="hh cen">Why us ?</h1>
+                </div>
+
+
+                <div class="col-12 p-3">
+                    <p class="choco mb-4">At Tastebite, we blend creativity with authenticity to bring you recipes that are both unique and easy to follow.
+                        With carefully curated ingredients and step-by-step guidance,
+                        we ensure every dish you make is a delicious success.</p>
+                </div>
+
+
+                <div class="col-4 col-md-4">
+                    <img src="https://img.freepik.com/premium-photo/tray-food-including-cereal-coffee-nuts_995407-126329.jpg?ga=GA1.1.854903613.1719421086&semt=ais_hybrid" class="w-100" style="border-radius:10px;" />
+                </div>
+
+                <div class="col-4 col-md-4">
+                    <img src="https://img.freepik.com/premium-photo/shiitake-rice-dumplings-steamed-pork-buns-noodles_79295-1583.jpg?ga=GA1.1.854903613.1719421086&semt=ais_hybrid" class="w-100" style="border-radius:10px;" />
+                </div>
+
+                <div class="col-4 col-md-4">
+                    <img src="https://img.freepik.com/free-photo/slices-bread-amidst-spices_23-2147742718.jpg?ga=GA1.1.854903613.1719421086&semt=ais_hybrid" class="w-100" style="border-radius:10px;" />
+                </div>
+
+
+                <div class="col-12 p-3">
+                    <h1 class="choco mt-2">To get know more about our team,Click the below option</h1>
+                </div>
+
+                <div class="col-12 p-2">
+                    <div class="cen">
+                        <button class="butt">Know More</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-3">
+                <h1 class="hh cen mt-2">Review</h1>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrXCv996X2uC-1sfBFOov56Eav8eo1gPLQeA&s" class="w-100" />
+                <h1 class="recipe2">Vijay<svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" fill="green" class="bi bi-check-circle-fill pl-2" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                    </svg></h1>
+                <p class="rev p-1">"This dark chocolate has the perfect balance of bitterness and sweetness. The rich cocoa flavor lingers in your mouth,</p>
+
+
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQiWNKs3zEdnvs0277CPOHo3tLrfuHqGr5ZA&s" class="w-100" />
+                <h1 class="recipe2">Ajith<svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" fill="blue" class="bi bi-check-circle-fill pl-2" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                    </svg></h1>
+                <p class="rev p-1">I love the deep, intense flavor of this dark chocolate. It's smooth in your mouth, Tastes are so good and quality</p>
+            </div>
+
+
+            <div class="col-6 col-md-6 col-lg-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQiWNKs3zEdnvs0277CPOHo3tLrfuHqGr5ZA&s" class="w-100" />
+                <h1 class="recipe2">Karthik<svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" fill="red" class="bi bi-check-circle-fill pl-2" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                    </svg></h1>
+                <p class="rev p-1">I was expect more from this chocolate. It's a bit too bitter for my taste, and the texture isn't as smooth as I hoped</p>
+            </div>
+
+
+            <div class="col-6 col-md-6 col-lg-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOiuLlQnKMY5Bm1uyRalW6Wzy7TLQu-sxnGg&s" class="w-100" />
+                <h1 class="recipe2">Vikram<svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" fill="brown" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                    </svg></h1>
+                <p class="rev p-1">"Too bitter for my liking, but great for those who enjoy intense cocoa flavors."Must try this chocolate"</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-3">
+                <h1 class="hh cen ">Subscribe to our emails</h1>
+            </div>
+
+            <div class="col-12">
+                <h1 class="choco mt-2">Be the first to know about new collections and exclusive offers.</h1>
+                <div class="cen">
+                    <button class="butt3 mt-2">Email</button>
+                </div>
+            </div>
+
+
+            <div class="col-12 p-3">
+                <h1 class="hh cen">As see on</h1>
+            </div>
+
+
+            <div class="col-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/IMG_8197.jpg?v=1697002388&width=710" class="w-75" />
+            </div>
+
+            <div class="col-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/IMG_8203.jpg?v=1697002387&width=710" class="w-75" />
+            </div>
+
+            <div class="col-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/IMG_8201.jpg?v=1697002387&width=710" class="w-75" />
+            </div>
+
+            <div class="col-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/IMG_8199.jpg?v=1697002387&width=710" class="w-75" />
+            </div>
+
+            <div class="col-12">
+                <div class="cen">
+                    <button class="butt mt-4">Know More</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div id="contactSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-3 ">
+                    <h1 class="hh cen mt-3">Contact us</h1>
+                    <h1 class="choco mt-3">We do not sell product from our site. If you want to visit, please reach out to our customer service team via email.</h1>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 p-3 cen">
+                    <h1 class="hh">Address</h1>
+                    <h1 class="choco">81-28-19A,</br>
+                        Kanchana nagar.</br>
+                        Rajamahendravaram.</br>
+                        Andhra Pradesh -533103.</h1>
+
+                </div>
+
+
+                <div class="col-12 col-md-12 col-lg-4 p-3 cen">
+                    <h1 class="hh">Email</h1>
+                    <h1 class="choco">Freddy32@gmail.com</h1>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 p-3 cen">
+                    <h1 class="hh">Phone No</h1>
+                    <h1 class="choco">8683637385</h1>
+                </div>
+
+
+                <div class="col-12 col-md-6 cen mt-3">
+                    <button class="butt3 pl-3">Name</button>
+                </div>
+
+                <div class="col-12 col-md-6 cen mt-3">
+                    <button class="butt3 pl-3">Email</button>
+                </div>
+
+                <div class="col-12 mt-4 cen">
+                    <button class="butt">Send</button>
+                    <hr />
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 mt-3 p-2 ">
+                    <img src="https://fabrx.co/wp-content/uploads/2020/07/tastebite-logo.png" class="w-50" />
+                </div>
+
+
+                <div class="col-12 col-md-3 mt-3 p-2 cen">
+                    <h1 class="hh mb-3">Recipe Page</h1>
+                    <h1 class="choco">Our story</h1>
+                    <h1 class="choco">Contact us</h1>
+                    <h1 class="choco">Site Map</h1>
+                </div>
+
+                <div class="col-12 col-md-3 mt-3 p-3 cen">
+                    <h1 class="hh">Top Recipees</h1>
+                    <h1 class="choco"> Glazed Dounts</h1>
+                    <h1 class="choco"> Cheesy Burger</h1>
+                    <h1 class="choco"> Strawberry Milkshake</h1>
+                    <h1 class="choco"> Banana Cake</h1>
+                    <h1 class="choco">Berry Biscuts</h1>
+                    <h1 class="choco">Salmon in tomato sauce</h1>
+                </div>
+
+
+                <div class="col-12 col-md-3 mt-3 p-3 cen">
+                    <h1 class="hh">Delivery</h1>
+                    <h1 class="choco"> Refunds Policy</h1>
+                    <h1 class="choco">Privacy Policy</h1>
+                    <h1 class="choco">Terms of Service</h1>
+                    <h1 class="choco">Refund policy</h1>
+
+
+                </div>
+            </div>
+
+            <hr />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 cen">
+                        <h1 class="hh2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle-fill mr-2" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503" />
+                            </svg>2024,Bon Fiction Powered by Shopify</h1>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="spinachSection">
+                <div class="container">
+                    <div cclass="row">
+                        <div class="col-12 mt-3">
+                            <h1 class="hh">Spinach and Cheese Pasta</h1>
+                        </div>
+
+                        <div class="col-12">
+                            <img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu2.jpg" class="w-100 mt-2" style="border-radius:10px;" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-md-4 p-3 ">
+                            <h1 class="hh mt-2">Ingredients</h1>
+                            <ul class="ing p-2">
+                                <li>200g pasta (penni or fusille)</li>
+                                <li>2 cups fresh spinach leaves</li>
+                                <li>1/2 cup cream or milk</li>
+                                <li>2 cloves garlic, minced</li>
+                                <li>1 tablespoon olive oil</li>
+                                <li>Salt and pepper to taste</li>
+                                <li>1/4 teaspoon chili flakes</li>
+                                <li>Parmesan cheese for garnish</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-4 col-md-4 p-3">
+                            <h1 class="hh mt-2">Instructions</h1>
+                            <ol class="ing2 p-2 rev p-1">
+                                <li>Cook the pasta according to package instructions, then drain and set aside.</li>
+                                <li>In a pan, heat olive oil and sauté minced garlic until fragrant.</li>
+                                <li>Add the spinach and cook until wilted, then stir in the cream or milk.</li>
+                                <li>Mix in the grated cheese and stir until the sauce is smooth and creamy.</li>
+                                <li>Toss the cooked pasta into the sauce, season with salt, pepper, and chili flakes, then serve with a sprinkle of Parmesan.</li>
+                            </ol>
+                        </div>
+
+
+                        <div class="col-4 col-md-4 p-4">
+                            <h1 class="hh2 cen">Cooking time and diificulty</h1>
+                            <p class="rev">Cooking times range from 15 to 40 minutes, with preparation times between 5 and 20 minutes. Quicker recipes are done in just 15 minutes of cooking and 5 minutes of prep.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="fancySection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-3">
+                            <h1 class="hh">Fancy Glazed Dounts</h1>
+                        </div>
+
+                        <div class="col-12">
+                            <img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu3.jpg" class="w-100 mt-2" style="border-radius:10px;" />
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-md-4 p-3">
+                            <h1 class="hh mt-2">Ingredients</h1>
+                            <ul class="ing p-2">
+                                <li>2 ½ cups all-purpose flour</li>
+                                <li>1/4 cup granulated sugar</li>
+                                <li>1/2 teaspoon salt</li>
+                                <li>1/2 cup warm milk</li>
+                                <li>1 large egg</li>
+                                <li>1/4 cup unsalted butter, melted</li>
+                                <li>1/4 teaspoon vanilla extract</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-4 col-md-4 p-3">
+                            <h1 class="hh mt-2">Instructions</h1>
+                            <ol class="ing2 p-2 rev p-1">
+                                <li>Preheat your oven to 375°F (190°C) and grease a donut pan.</li>
+                                <li>In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and nutmeg.</li>
+                                <li>In another bowl, mix the milk, melted butter, eggs, and vanilla extract until combined.</li>
+                                <li>Pour the wet ingredients into the dry ingredients and mix until just combined.</li>
+                            </ol>
+                        </div>
+
+
+                        <div class="col-4 col-md-4 p-4">
+                            <h1 class="hh2 cen">Cooking time and diificulty</h1>
+                            <p class="rev">The cooking time is around 30-40 minutes, including prep and glazing.
+                                The recipe is easy to moderate, suitable for beginners with a donut pan.
+                                It's a fun and creative way to make colorful, delicious treats at home..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="mightySection">
+                <div class="conatiner">
+                    <div class="row">
+                        <div class="col-12 mt-3">
+                            <h1 class="hh">Mighty Cheesy Burger</h1>
+                        </div>
+
+                        <div class="col-12">
+                            <img src="https://fabrx.co/preview/tastebite/assets/images/menus/menu4.jpg" class="w-100 mt-2" style="border-radius:10px;" />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="conatiner">
+                    <div class="row">
+                        <div class="col-4 col-md-4 p-3">
+                            <h1 class="hh mt-2">Ingredients</h1>
+                            <ul class="ing p-2">
+                                <li>4 slices cheddar cheese</li>
+                                <li>4 burger buns</li>
+                                <li>4 tomato slices</li>
+                                <li>4 onion slices</li>
+                                <li>4 tbsp mayonnaise</li>
+                                <li>2 tbsp mustard</li>
+                                <li>Butter (for toasting buns)</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-4 col-md-4 p-3">
+                            <h1 class="hh mt-2">Instructions</h1>
+                            <ol class="ing2 p-2 rev p-1">
+                                <li>Shape and season patties with salt and pepper.</li>
+                                <li>Cook patties for 3-4 minutes per side, adding cheese to melt.</li>
+                                <li>Toast buttered buns until golden.</li>
+                                <li>Assemble with sauces, veggies, and patties.</li>
+                            </ol>
+                        </div>
+
+
+
+                        <div class="col-4 col-md-4 p-4">
+                            <h1 class="hh2 cen">Cooking time and diificulty</h1>
+                            <p class="rev">The cooking time is about 15-20 minutes, including prepping, cooking patties, and toasting buns.
+                                The difficulty is easy to moderate,
+                                perfect for a quick homemade meal. Even beginners can handle it with basic cooking skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+</html>

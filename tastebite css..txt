@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.size {
+    font-size: 24px;
+    margin: 12px;
+    font-family: 'lobster';
+    color: white;
+}
+
+.img {
+    height: 60px;
+    width: 100px;
+}
+
+.mm {
+    padding: 7px;
+}
+
+#mmm {
+    font-family: 'lobster';
+    color: black;
+}
+
+.bg {
+    background-color: white;
+}
+
+.card-edit {
+    background-color: white;
+    border-radius: 16px;
+    text-align: center;
+    background-color: #E4F1FF;
+}
+
+.img2 {
+    height: 100px;
+    width: 280px;
+
+}
+
+.para {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.bg {
+    background-image: url("https://png.pngtree.com/background/20230114/original/pngtree-gray-and-white-business-small-fresh-simple-layered-gradient-texture-poster-picture-image_2004373.jpg");
+    height: 86vh;
+    background-size: cover;
+}
+
+.cen {
+    text-align: center;
+}
+
+.butt {
+    height: 45px;
+    width: 135px;
+    color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: 'Roboto';
+    background-image: linear-gradient(to right, #ec723f, #e786df);
+}
+
+.hh {
+    font-family: 'lobster';
+    color: black;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.recipe {
+    font-family: 'lobster';
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+
+.bg2 {
+    background-color: #FFD8CA;
+
+}
+
+.del {
+    font-family: 'lobster';
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.del2 {
+    font-family: 'Caveat';
+    text-align: center;
+    font-size: 30px;
+}
+
+.butt2 {
+    height: 45px;
+    width: 270px;
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.hh2 {
+    font-size: 16px;
+    font-family: 'lobster';
+}
+
+.choco {
+    font-family: 'lobster';
+    font-size: 22px;
+    color: grey;
+    text-align: center;
+}
+
+.card-edit2 {
+    background-color: white;
+    border-radius: 16px;
+    text-align: center;
+    height: 300px;
+}
+
+.recipe2 {
+
+    font-family: 'lobster';
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
+
+.rev {
+    font-size: 15px;
+
+    color: black;
+    font-family: 'lobster';
+
+}
+
+.butt3 {
+    height: 45px;
+    width: 270px;
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    text-align: left;
+    margin: 5px;
+}
+
+.ing {
+    list-style-type: circle;
+    font-family: 'lobster';
+    color: black;
+    font-size: 15px;
+}
+
+.hh2 {
+    font-size: 20px;
+    font-family: 'lobster';
+    color: black;
+    text-decoration: underline;
+}
