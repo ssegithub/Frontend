@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner bg-dark">
+            <div class="carousel-item active ss">
+                <h1 class="size">Free shipping on orders worth INR 750 & above</h1>
+            </div>
+            <div class="carousel-item ss">
+                <h1 class="size">10 % off your first order with code "WELCOME10"
+                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                    </svg>
+                </h1>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+
+        <div class="mm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
+                <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018" />
+                <path d="M13 6.5a6.47 6.47 0 0 1-1.258 3.844q.06.044.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11" />
+            </svg>
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="26" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+            </svg>
+        </div>
+
+        <img src="https://bonfiction.us/cdn/shop/files/IMG_8966.png?height=628&pad_color=ffffff&v=1701658668&width=1200" class="image " />
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link active" id="mm" href="#shopSection">Shop <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" id="mm" href="#BestsellerSection">Bestseller</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" id="mm" href="#storySection">Our story</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" id="mm" href="#aboutSection">Choco's story</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" id="mm" href="#whySection">why bon Fiction?</a>
+                <li class="nav-item ">
+                    <a class="nav-link" id="mm" href="#contactSection">Contact us</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="bg d-flex flex-column justify-content-center">
+        <div class="align">
+            <h1 class="hh mb-0">Minimal ingrediants</h1>
+            <h1 class="hh2 ">Maximum flavour</h1>
+            <button class="butt mt-2 mr-2">Shop Now</button>
+            <button class="butt mt-2">Know More</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-3 p-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/100_natural_070f25ba-9605-428d-ba11-6389e4253401.png?v=1669390565&width=360" class="image2" />
+                <h1 class="hh3 ml-3">100% Natural</h1>
+            </div>
+
+            <div class="col-6 col-md-3 p-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/artisanal_b2aa2328-a2be-4b3d-82af-cdf4398e6d42.png?v=1669443118&width=360" class="image2 ml-2" />
+                <h1 class="hh3 ml-5">Artisanal</h1>
+            </div>
+
+            <div class="col-6 col-md-3 p-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/farmer_friendly_c7868320-2457-4c37-a3eb-485471da8eb4.png?v=1669390565&width=360" class="image2" />
+                <h1 class="hh3 ml-4">Agri-friendly</h1>
+            </div>
+
+            <div class="col-6 col-md-3 ">
+                <img src="https://www.bonfiction.com/cdn/shop/files/farmer_friendly_c7868320-2457-4c37-a3eb-485471da8eb4.png?v=1669390565&width=360" class="image2 ml-3 mt-3" />
+                <h1 class="hh3 ml-5">Non Gmo</h1>
+            </div>
+            <div class="col-6 col-md-3 p-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/preservative_free_7cad00d1-4876-4825-9777-e4a947d613b2.png?v=1669390619&width=360" class="image2" />
+                <h1 class="hh3 ml-2">Preservative free</h1>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/palm_oil_free_f5d0ce49-4ba3-41b3-b9b1-2f139ac6ddf4.png?v=1669390565&width=360" class="image2 ml-4 mt-3" />
+                <h1 class="hh3 ml-5 ">Palm Oil free</h1>
+            </div>
+
+            <div class="col-6 col-md-3 p-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/No_artificial_flavouring.png?v=1669390566&width=360" class="image2" />
+                <h1 class="hh3">No Artificial Flavouring</h1>
+            </div>
+
+            <div class="col-6 col-md-3 p-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/melt_free_shipping_dbb396f3-8a1c-4869-9dff-b15600315a62.png?v=1669390565&width=360" class="image2 ml-4 " />
+                <h1 class="hh3 ml-3">Melt-Free Shipping</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="shopSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <h1 class="shop">Shop</h1>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3 pt-4">
+                    <div class="shadow card-edit p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/overhead-view-raspberry-blackberry-flavored-shaped-jelly-candies_23-2147866123.jpg?t=st=1727622040~exp=1727625640~hmac=db67916afc34b923fa3f24dc82192e3bfc1dfd7095069ac260a5b3dca6f62369&w=740" class="w-100" style="border-radius:10px;" />
+                        <h1 class="arr mt-2">New Arrivals</h1>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3 pt-4">
+                    <div class="shadow card-edit p-3 mb-3">
+                        <img src="https://img.freepik.com/premium-psd/poster-chocolates-chocolates-with-picture-world-chocolate-bar_1262223-84.jpg?w=740" class="w-100" style="border-radius:10px;" />
+                        <h1 class="arr mt-2">All chocolates</h1>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-6 col-lg-3  pt-4">
+                    <div class="shadow card-edit p-3 mb-3">
+                        <img src="https://img.freepik.com/premium-photo/piece-chocolate-that-has-leaf-it_1309173-10023.jpg?w=740" class="w-100" style="border-radius:10px;" />
+                        <h1 class="arr mt-2">Vegan Chocolate</h1>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3  pt-4">
+                    <div class="shadow card-edit p-3 mb-3">
+                        <img src="https://img.freepik.com/free-photo/flat-lay-dark-assortment-with-chocolate-with-copy-space_23-2148553182.jpg?t=st=1727623415~exp=1727627015~hmac=4d7806b8baa96d2c4bc86f12981c9161600fba0aa365b0a56d4c3ee57ca1aac7&w=740" class="w-100" style="border-radius:10px;" />
+                        <h1 class="arr mt-2">Dark chocolate</h1>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3  pt-4">
+                    <div class="shadow card-edit p-3 mb-3">
+                        <img src="https://img.freepik.com/free-vector/vector-illustration-flow-milk-chocolate-created-ripple-splash_1441-226.jpg?t=st=1727677310~exp=1727680910~hmac=8e4ae9d679107d9b5df64fc9d691d9cd8fdf36735d07af537935ec16a17b22dd&w=740" class="w-100" style="border-radius:10px;" />
+                        <h1 class="arr mt-2">Milk chocolate</h1>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-6 col-lg-3  pt-4">
+                    <div class="shadow card-edit p-3 mb-3">
+                        <img src="https://theootychocolates.com/cdn/shop/products/FruitFlavoured2.jpg?v=1627874669" class="w-100" style="border-radius:10px;" />
+                        <h1 class="arr mt-2">Fruit chocolate</h1>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3  pt-4">
+                    <div class="shadow card-edit p-3 mb-3">
+                        <img src="data:image/jpeg;base64,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" class="w-100" style="border-radius:10px;" />
+                        <h1 class="arr mt-2">Infusion chocolate</h1>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3  pt-4">
+                    <div class="shadow card-edit p-3 mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOJdri14GJTCDHcLJHFC_knVx61HkZENBRbQ&s" class="w-100" style="border-radius:10px;" />
+                        <h1 class="arr mt-2">Gifting</h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="BestsellerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <h1 class="shop">Bestseller</h1>
+                </div>
+
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="card-edit p-4 mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY9VhKXl0xCmWMymIR2hR7IHSiQ_vjPKh3AQ&s" class="image3" />
+                        <h1 class="mango pt-2">Mango menance - 55% Dark Alphonso Mango
+                            chill chocolate</h1>
+                        <h1 class="rupee">Rs.225</h1>
+                        <button class="butt2">Add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="card-edit p-4 mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvUXxhzplgdoYMVbBms9o7bB1GjUIwEwKI9Q&s" class="image3" />
+                        <h1 class="mango pt-2">Out in the dark - 73% dark chcolate- Must try this chocolate </h1>
+                        <h1 class="rupee">Rs.225</h1>
+                        <button class="butt2">Add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="card-edit p-4 mb-3">
+                        <img src="https://imgmedia.lbb.in/media/2023/01/63bbb288ed3f0931e641cfe5_1673245320652.jpg" class="image3" />
+                        <h1 class="mango pt-2">A Rose in Pistachio Skies- 55% Dark Rose Pistachio Chocolate</h1>
+                        <h1 class="rupee">Rs.225</h1>
+                        <button class="butt2">Add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="card-edit p-4 mb-3">
+                        <img src="https://carra.co.in/cdn/shop/products/Carra-edit1_b22564b8-06ec-4dd5-8b83-ff7ad428acd9_1800x1800.jpg?v=1668858137" class="image3" />
+                        <h1 class="mango pt-2">The Roasted Almond Revival-55% Dark milk Almond Chocolate</h1>
+                        <h1 class="rupee">Rs.225</h1>
+                        <button class="butt2">Add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="card-edit p-4 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/81AFVOOYqDL.jpg" class="image3" />
+                        <h1 class="mango pt-2">The Cranberry chilly chase-64% Dark Cranberry chilli Chocolate</h1>
+                        <h1 class="rupee">Rs.225</h1>
+                        <button class="butt2">Add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="card-edit p-4 mb-3">
+                        <img src="https://moddys.in/cdn/shop/products/IMG_0055_600x.jpg?v=1624268996" class="image3" />
+                        <h1 class="mango pt-2">The Hazelnut Hour - 45% Milk Hazelnut Dark Chocolate- Must try</h1>
+                        <h1 class="rupee">Rs.225</h1>
+                        <button class="butt2">Add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="col-12">
+                    <div class="cen">
+                        <button class="butt2 butt3 mt-3">View All</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <div id="storySection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h1 class="shop">Our Story</h1>
+                </div>
+
+                <div class="col-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sbZ5PuK7RPI?rel=0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="aboutSection">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 mt-3">
+                    <h1 class="shop">Choco's story</h1>
+                </div>
+                <div class="col-6 col-md-3 mt-4">
+                    <img src="https://www.bonfiction.com/cdn/shop/files/1_alternative_6787ae6e-e30e-49d0-b6da-5a322ec23f41.jpg?v=1643973632&width=360" class="w-100" />
+                </div>
+
+                <div class="col-6 col-md-3 mt-4">
+                    <img src="https://www.bonfiction.com/cdn/shop/files/1_1_-min.jpg?v=1643973939&width=360" class="w-100" />
+                </div>
+
+                <div class="col-6 col-md-3 mt-4">
+                    <img src="https://www.bonfiction.com/cdn/shop/files/2_ec916258-ba03-4ca7-89ed-cf1cd95d365e.jpg?v=1643973869&width=360" class="w-100" />
+                </div>
+                <div class="col-6 col-md-3 mt-4">
+                    <img src="https://www.bonfiction.com/cdn/shop/files/3-min.jpg?v=1643974123&width=360" class="w-100" />
+                </div>
+
+
+                <div class="col-12 mt-4">
+                    <h1 class="choco">The world stands witness to the love for chocolates!</h1>
+                </div>
+
+                <div class="col-12 mt-3">
+                    <p class="choco">The cacao in every Bon Fiction bar is hand-picked from farms in the godavari region of Southern India where we work closely with our farmers.
+                        At our estate each Cacao pod is sorted, fermented and dried. Our Chocolate is made using traditional processes. The single origin Cacao creates an expression of flavour that is worth writing stories about. </p>
+                </div>
+
+                <div class="col-12">
+                    <div class="cen">
+                        <button class="butt2 butt3 mt-3 mb-3">Know More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="whySection">
+        <div class="container">
+            <div class="row">
+                <div class=" col-12 ">
+                    <img src="https://www.bonfiction.com/cdn/shop/files/Why_Bon-Fiction.jpg?v=1643368870&width=535" class="w-100" />
+                </div>
+
+                <div class="col-12 ">
+                    <h1 class="mango2 pt-2 mt-3">Why bon fiction Chocolate?</h1>
+                    <p class="choco">Each bar is made with dedication to create an experience like you have tasted never before with flavours that intrigue and invigorate your flavour palette. Bringing together the finest of cacao and ingredients to show you the true essence of the land it comes from.
+
+                        Crumpling the bitter myths of dark chocolate, Bon Fiction is here to make its first bite ‘last & everything you continue to long for’. Tasting Bon-Fiction,
+                        you grow closer to the idea that our fields of cacao are a promise of passion, the artisan culture is a testament to perseverance where every cacao bean is sourced from the farmlands dear to us. Ultimately, bringing a mixture of taste, arms and an unforgettable experience to the bar.</p>
+                    <div class="cen">
+                        <button class="butt2 butt3 mt-1">Know More</button>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12  mt-3 ">
+                    <img src="https://www.bonfiction.com/cdn/shop/files/100_Natural_Ingredients.jpg?v=1643368889&width=535" class="w-100" />
+                </div>
+
+                <div class=" col-12 p-3 ">
+                    <h1 class="mango2 pt-2 mt-3">100% natural ingredients</h1>
+                    <p class="choco">At Bon-Fiction, we take pride in executing every stage of chocolate making in a unique, sustainable manner while compromising on really, ‘nothing’.
+                        We entail all ingredients ‘natural’ and entertain no chemically processed intermediaries making the bar the most natural chocolate bar. Our journey with chocolate begins right on the field, the farmer, the seed and continues till the chocolate bar is artisan-made with quality. Therefore, we believe Bon-Fiction is not merely dark chocolate bars but the brilliance of finesse layers compressed within them.</p>
+                    <div class="cen">
+                        <button class="butt2 butt3 mt-3">Know More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <h1 class="shop">Review</h1>
+            </div>
+
+
+            <div class="col-6 col-md-6 ">
+                <div class=" shadow card-edit p-3 mb-3">
+                    <img src="https://i.pinimg.com/736x/eb/92/be/eb92bece2da9309062dd7df0ebdb63d9.jpg" class="w-50 mt-3" />
+                    <h1 class="mango2 mt-2 mr-5">Vijay <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                        </svg></h1>
+
+                    <p class="font2">"This dark chocolate has the perfect balance of bitterness and sweetness. The rich cocoa flavor lingers in your mouth, </p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-6 ">
+                <div class=" shadow card-edit p-3 mb-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrXCv996X2uC-1sfBFOov56Eav8eo1gPLQeA&s" class="w-50 mt-3" />
+                    <h1 class="mango2 mt-2 mr-5">Rithika <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                        </svg></h1>
+                    <p class="font2">I love the deep, intense flavor of this dark chocolate. It's smooth in your mouth, Tastes are so good and quality too</p>
+                </div>
+            </div>
+
+
+            <div class="col-6 col-md-6 ">
+                <div class=" shadow card-edit p-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQiWNKs3zEdnvs0277CPOHo3tLrfuHqGr5ZA&s" class="w-50 mt-3" />
+                    <h1 class="mango2 mt-2 mr-5">Karthik <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                        </svg></h1>
+                    <p class="font2">I was expecting more from this dark chocolate. It's a bit too bitter for my taste, and the texture isn't as smooth as I hoped </p>
+                </div>
+            </div>
+
+
+
+            <div class="col-6 col-md-6 ">
+                <div class=" shadow card-edit p-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOiuLlQnKMY5Bm1uyRalW6Wzy7TLQu-sxnGg&s" class="w-50 mt-3" />
+                    <h1 class="mango2 mt-2 mr-5">Vikram <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                        </svg></h1>
+                    <p class="font2 ">""Too bitter for my liking, but great for those who enjoy intense cocoa flavors. Pairs well with coffee." Must try this chocolate"</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-4">
+                <h1 class="shop">Subscribe to our emails</h1>
+            </div>
+
+
+            <div class="col-12 mt-2">
+                <h1 class="choco">Be the first to know about new collections and exclusive offers.</h1>
+                <div class="cen">
+                    <button class="email mt-3 pl-3">Email</button>
+                </div>
+            </div>
+
+
+            <div class="col-12 mt-3">
+                <h1 class="shop">As see on</h1>
+            </div>
+
+            <div class="col-3 col-md-3 col-lg-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/IMG_8199.jpg?v=1697002387&width=710" class="w-75" />
+            </div>
+
+            <div class="col-3 col-md-3 col-lg-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/IMG_8201.jpg?v=1697002387&width=710" class="w-75" />
+            </div>
+
+            <div class="col-3 col-md-3 col-lg-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/IMG_8197.jpg?v=1697002388&width=710" class="w-75" />
+            </div>
+
+            <div class="col-3 col-md-3 col-lg-3">
+                <img src="https://www.bonfiction.com/cdn/shop/files/IMG_8203.jpg?v=1697002387&width=710" class="w-75" />
+            </div>
+
+
+            <div class="col-12">
+                <div class="cen">
+                    <button class="butt2 butt3 mt-4">Know More</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactSection">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 mt-3">
+                    <h1 class="shop">Contact us</h1>
+                    <h1 class="choco">We do not sell product from our corporate headquarters.
+                        If you want to visit, please reach out to our customer service team via email.</h1>
+                </div>
+
+
+                <div class="col-12 col-md-12 col-lg-4 p-3 cen">
+                    <h1 class="shop">Address</h1>
+                    <h1 class="choco">
+                        81-28-19A,</br>Kanchana nagar.</br>Rajamahendravaram.</br>Andhra Pradesh -533103.</h1>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 p-3 cen">
+                    <h1 class="shop">Email</h1>
+                    <h1 class="choco">Freddy32@gmail.com</h1>
+                </div>
+
+
+                <div class="col-12 col-md-12 col-lg-4 p-3">
+                    <h1 class="shop ">Phone No</h1>
+                    <h1 class="choco">8683637385</h1>
+                </div>
+
+
+                <div class="col-12 col-md-6 cen ">
+                    <button class="email mt-3 pl-3">Name</button>
+
+                </div>
+
+                <div class="col-12 col-md-6 cen ">
+                    <button class="email mt-3 pl-3">Email*</button>
+                </div>
+
+                <div class="col-12 cen">
+                    <button class="email mt-3 pl-3">Comment</button>
+                </div>
+
+                <div class="col-12">
+                    <div class="cen">
+                        <button class="butt2 butt3 mt-4">Send</button>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3 mt-3 p-2 ">
+                <img src="https://www.bonfiction.com/cdn/shop/files/bonfiction_fe862d7a-5d4d-460d-8e08-81ae6776a854.png?v=1666283274&width=100" class="w-50" />
+            </div>
+
+
+            <div class="col-12 col-md-3 mt-3 p-2 ">
+                <h1 class="contact mb-3"> Company</h1>
+                <h1 class="com mb-3">Our story</h1>
+                <h1 class="com mb-3">Contact us</h1>
+                <h1 class="com">Site Map</h1>
+            </div>
+
+            <div class="col-12 col-md-3 mt-3 p-2 ">
+                <h1 class="contact mb-3">Shop</h1>
+                <h1 class="com mb-3">Milk Chocolate</h1>
+                <h1 class="com mb-3">Vegan Chocolate</h1>
+                <h1 class="com mb-3">Dark Chocolate</h1>
+                <h1 class="com mb-3">Plain Chocolate</h1>
+                <h1 class="com mb-3">Infusion Chocolate</h1>
+                <h1 class="com mb-3">Fruit Chocolate</h1>
+                <h1 class="com">Gifting</h1>
+            </div>
+
+
+            <div class="col-12 col-md-3 mt-3 p-2 ">
+                <h1 class="contact mb-3">Delivery Policy</h1>
+                <h1 class="com mb-3">Returns & Refunds Policy</h1>
+                <h1 class="com mb-3">Privacy Policy</h1>
+                <h1 class="com mb-3">Terms of Service</h1>
+                <h1 class="com mb-3">Refund policy</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <hr />
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="choco"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle mr-2" viewBox="0 0 16 16">
+                        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512" />
+                    </svg>2024,Bon Fiction Powered by Shopify</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
