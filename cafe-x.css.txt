@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.size {
+    font-family: "Lobster";
+    font-size: 24px;
+    color: black;
+    margin: 12px;
+    text-align: center;
+
+
+}
+
+
+
+.hh {
+    font-size: 30px;
+    color: yellow;
+    font-family: "Monoton";
+}
+
+
+.bg {
+    background-image: url("https://img.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg?ga=GA1.1.343878286.1745208063&semt=ais_hybrid&w=740");
+    height: 110vh;
+    background-size: cover;
+}
+
+.h2 {
+    font-family: "Lobster";
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.p1 {
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.butt {
+    height: 45px;
+    width: 135px;
+    color: black;
+    border-radius: 10px;
+    background-color: #ebc934;
+    border-width: 0px;
+    font-family: 'Roboto';
+
+}
+
+.cen {
+    text-align: center;
+}
+
+.bg1 {
+    background-color: white;
+
+}
+
+.card-edit {
+    background-color: white;
+    border-radius: 15px;
+
+
+}
+
+.img1 {
+    height: 60px;
+    width: 60px;
+}
+
+.h3 {
+    color: black;
+    font-size: 20px;
+
+    font-family: "Monoton";
+}
+
+.h4 {
+
+    font-family: "Serif";
+    font-size: 20px;
+
+}
+
+.img2 {
+    height: 170px;
+    width: 200px;
+}
+
+.about {
+    color: #FFB13B;
+    font-size: 25px;
+    font-family: "Lobster";
+}
+
+.wel {
+    font-family: "Lobster";
+    font-size: 30px;
+}
+
+.img3 {
+    height: 40px;
+    width: 45px;
+}
+
+.hash {
+    color: #FFB13B;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.reji {
+    color: #FFB13B;
+    font-size: 30px;
+    font-family: "Monoton";
+
+}
+
+.span {
+    color: black;
+    font-size: 30px;
+    font-family: "Lobster";
+}
+
+.pop {
+    color: #808080;
+    font-size: 20px;
+    font-family: "Serif";
+}
+
+.pop2 {
+    color: black;
+    font-size: 20px;
+}
+
+.img3 {
+    height: 60px;
+    width: 60px;
+}
+
+.cen {
+    text-align: center;
+}
+
+.wel2 {
+    font-size: 20px;
+    font-family: "Lobster";
+}
+
+.wid {
+    height: 80px;
+    width: 80px;
+}
+
+.span2 {
+    color: #FFB13B;
+    font-size: 20px;
+
+}
+
+.bg2 {
+    background-color: #0E1325;
+
+}
+
+.table {
+    color: white;
+    font-family: "Lobster";
+    font-size: 20px;
+}
+
+.butt2 {
+    background-color: #FFB13B;
+    height: 50px;
+    width: 460px;
+    color: white;
+}
+
+.cen2 {
+    text-align: left;
+}
+
+.par {
+    color: #FFB13B;
+    font-family: "Lobster";
+    font-size: 25px;
+}
+
+.par2 {
+    color: #FFB13B;
+    font-size: 20px;
+    font-family: "Lobster";
+}
+
+.card-edit1 {
+    background-color: white;
+}
+
+.pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+
+.card-edit2 {
+    background-color: #FFB13B;
+    height: 180px;
+    width: 400px;
+
+
+}
+
+.left {
+    text-align: left;
+}
+
+.head {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    font-family: "Lobster";
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+.wel3 {
+    font-size: 17px;
+    font-family: "Lobster";
+    color: white;
+}
+
+.wel4 {
+    font-size: 15px;
+    font-family: "Playfair";
+    color: white;
+}
+
+.final-bg {
+    background-color: #1A1A2E;
+
+}
+
+.final-text {
+    color: white;
+    font-size: 20px;
+    font-family: "Playfair";
+
+
+}
+
+.email {
+    height: 50px;
+    width: 220px;
+    border-width: 1px;
+    border-color: #FFB13B;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.final-text2 {
+    color: white;
+    font-size: 15px;
+    font-family: "Playfair";
+}
+
+
+.span1 {
+    color: #FFB13B;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Lobster";
+}
